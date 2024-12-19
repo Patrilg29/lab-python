@@ -13,3 +13,4 @@ ipython reduc-operation-alumno13.ipynb $1
 echo Ejecutando el notebook con $2 elementos
 ipython reduc-operation-alumno13.ipynb $2
 
+module unload anaconda/2023.03 # Descargo el módulo
