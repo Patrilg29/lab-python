@@ -1,0 +1,26 @@
+Ejecutando el notebook con 10000000 elementos
+Time taken by reduction operation: 2.3060543537139893 seconds
+2.31 s ± 1.27 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 49999995000000
+
+El tiempo empleado en la suma de la lista mediante el bucle for es 2.4221725463867188 segundos
+El tiempo empleado en la suma de la lista mediante la función sum es 0.46543121337890625 segundos
+El tiempo empleado en la suma del array mediante el bucle for es 2.5580697059631348 segundos
+El tiempo empleado en la suma del array mediante la función sum de numpy es 0.012708425521850586 segundos
+El tiempo empleado en la suma del array usando el decorador njit por primera vez es 4.06597375869751 segundos
+El tiempo empleado en la suma del array usando el decorador njit por segunda vez es 0.0003426074981689453 segundos
+El tiempo empleado en la suma mediante la función sum de numpy es 0.014892578125 segundos
+Ejecutando el notebook con 100000000 elementos
+Time taken by reduction operation: 23.036258935928345 seconds
+23 s ± 12.5 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 4999999950000000
+
+El tiempo empleado en la suma de la lista mediante el bucle for es 24.213632583618164 segundos
+El tiempo empleado en la suma de la lista mediante la función sum es 3.3028151988983154 segundos
+El tiempo empleado en la suma del array mediante el bucle for es 25.605399131774902 segundos
+El tiempo empleado en la suma del array mediante la función sum de numpy es 0.11765694618225098 segundos
+El tiempo empleado en la suma del array usando el decorador njit por primera vez es 5.872748613357544 segundos
+El tiempo empleado en la suma del array usando el decorador njit por segunda vez es 0.00039005279541015625 segundos
+El tiempo empleado en la suma mediante la función sum de numpy es 0.11909627914428711 segundos
